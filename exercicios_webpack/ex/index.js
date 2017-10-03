@@ -9,7 +9,6 @@ function clone(objeto){
     return { ...objeto}
 }
 
-
-novoProduto = clone(produto);
+const novoProduto = clone(produto);
 novoProduto.nome = 'Caneta BIC Azul';
 console.log(produto, novoProduto);  
